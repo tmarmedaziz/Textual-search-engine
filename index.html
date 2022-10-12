@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous" />
+
+    <link rel="stylesheet" href="style.css" />
+    <title>AIM 2022 search engine</title>
+    
+</head>
+
+<body>
+    <nav class="navbar navbar-light bg-light">
+        <a href="javascript:window.top.location.reload(true)" style="margin-left: 10px;" class="navbar-brand" href="#">Search engine
+            <img src="./images/search.png" style="width: 30px;" alt="">
+        </a>
+    </nav>
+
+    <div id="search">
+        <h4>Enter your search query</h4>
+        <input id="search-query" type="text" placeholder="search..." onblur="get_value()"><br>
+        <a href="#" class="btn" onclick="search_input()">search</a>
+    </div>
+
+    <div class="footer">© Mohamed Aziz Tmar AIM2023 SUPCOM Search Engine</div>
+
+    <script src="index.js"></script>
+</body>
+
+
+</html>
